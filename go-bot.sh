@@ -28,14 +28,14 @@ read -p "input choise -: " cl4;
 echo ""
 if [ $cl4 = 1 ] || [ $cl4 = 1 ]
 then
-pkg install ruby-ri
-ri auto_follow.rb
+pkg install python2 python
+python2 follow.py
 fi
 
 if [ $cl4 = 2 ] || [ $cl4 = 2 ]
 then
-pkg install ruby-ri
-ri liker.rb
+pkg install python2 python
+python2 liker.py
 
 fi 
 
