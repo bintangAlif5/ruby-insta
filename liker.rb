@@ -1,4 +1,4 @@
-  require 'watir'
+require 'system'
 require_relative './_credentials'
 
 # define name and password
