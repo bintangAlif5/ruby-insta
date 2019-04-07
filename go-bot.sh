@@ -31,3 +31,20 @@ then
 pkg install ruby-ri
 ri auto_follow.rb
 fi
+
+if [ $cl4 = 2 ] || [ $cl4 = 2 ]
+then
+pkg install ruby-ri
+ri liker.rb
+
+fi 
+
+if [ $cl4 = 00 ] || [ $cl4 = exit ]
+then
+clear
+echo "\033[95mThank you for using my tools"
+echo "\033[95mI hope you have a good day :) "
+echo "\033[93mTo repeat"
+echo "\033[92m enter $ sh go-bot.sh"
+exit
+fi 
